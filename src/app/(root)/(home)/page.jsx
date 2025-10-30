@@ -7,7 +7,7 @@ export default function MahanaGymnasticsSite() {
   return (
     <div
       dir="rtl"
-      className=" bg-gray-300 text-gray-900" }}
+      className="min-h-screen bg-center bg-gray-300 text-gray-900" }}
     >
       {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur bg-white/70 border-b border-slate-200">
