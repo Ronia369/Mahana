@@ -1,4 +1,5 @@
 "use client";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import React, { useState } from "react";
 
 export default function MahanaGymnasticsSite() {
@@ -7,7 +8,8 @@ export default function MahanaGymnasticsSite() {
   return (
     <div
       dir="rtl"
-      className="min-h-screen bg-center bg-gray-300 text-gray-900" }}
+      className="min-h-screen text-gray-900 bg-cover bg-center"
+      style={{ backgroundImage: "url('/mahana-saeede2.jpg')" }}
     >
       {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur bg-white/70 border-b border-slate-200">
@@ -167,11 +169,6 @@ export default function MahanaGymnasticsSite() {
             <span className="font-semibold">کشف و شکوفا کردن استعدادها</span> و
             همراهی همیشگی در مسیر رشد، سلامتی و موفقیت ورزشکاران است.
           </p>
-          <p className="leading-8">
-            مربیان مجموعه‌ی ژیمناستیک ماهانا با بیش از ۲۵ سال تجربه و سابقه‌ی قهرمانی در این رشته، از برترین‌های کشور به شمار می‌روند.
-این مربیان به‌صورت انحصاری در باشگاه ماهانا فعالیت دارند و در هیچ مجموعه‌ی دیگری مشغول به کار نیستند.
-مدرسه‌ی ژیمناستیک ماهانا همچنین از مربیان برتر تیم ملی و بازیکنان فعلی تیم ملی ژیمناستیک در آموزش هنرجویان بهره می‌برد.
-          </p>
         </div>
       </section>
 
@@ -242,8 +239,8 @@ export default function MahanaGymnasticsSite() {
     <p className="leading-8 text-center">
       انتخاب ماهانا یعنی انتخاب <span className="font-semibold text-teal-600">تجربه، امنیت، انگیزه و پیشرفت واقعی</span>.
     </p>
-    <p className="leading-8 text-center">
-    به کار گرفتن اصطلاحات بین المللی حرکات ژیمناستیک و تکنیک ها بروز و استفاده از ایزار های بروز.
+    <p className="leading-8 text-center"
+    >به کار گرفتن اصطلاحات بین المللی حرکات ژیمناستیک و تکنیک ها بروز و استفاده از ایزار های بروز.
     </p>
   </div>
 </section>
