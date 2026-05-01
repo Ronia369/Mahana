@@ -8,8 +8,8 @@ export default function MahanaGymnasticsSite() {
   return (
     <div
       dir="rtl"
-      className="min-h-screen text-gray-900 bg-cover bg-center"
-      style={{ backgroundImage: "url('/mahana-saeede2.jpg')" }}
+      className="min-h-screen text-gray-900 bg-cover bg-center fixed"
+      style={{ backgroundImage: "url('/rasa.jpg')" }}
     >
       {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur bg-white/70 border-b border-slate-200">
