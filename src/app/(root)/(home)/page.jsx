@@ -8,7 +8,7 @@ export default function MahanaGymnasticsSite() {
   return (
     <div
       dir="rtl"
-      className="min-h-screen text-gray-900 bg-cover bg-center fixed"
+      className="text-gray-900 bg-cover bg-fixed"
       style={{ backgroundImage: "url('/rasa.jpg')" }}
     >
       {/* Header */}
@@ -183,6 +183,12 @@ export default function MahanaGymnasticsSite() {
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-2xl p-6 shadow-2xl hover:scale-105 hover:bg-white/70">
+              <h3 className="font-bold">بزرگسالان</h3>
+              <p className="text-slate-600 mt-2">
+                ساعت (2:30 - 1) روزهای زوج
+              </p>
+            </div>
+            <div className="bg-white rounded-2xl p-6 shadow-2xl hover:scale-105 hover:bg-white/70">
               <h3 className="font-bold">ژیمناستیک کودکان سه تا پنج سال</h3>
               <p className="text-slate-600 mt-2">
                 ساعت (3:30 - 2) روزهای زوج
@@ -199,8 +205,8 @@ export default function MahanaGymnasticsSite() {
               </p>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow-2xl">
-              <h3 className="font-bold">نوجوانان و بزرگسالان</h3>
-              <p className="text-slate-600 mt-2">ساعت (8 - 6:30)</p>
+              <h3 className="font-bold">نوجوانان مبتدی ها</h3>
+              <p className="text-slate-600 mt-2">ساعت (7:30 - 6:30)</p>
             </div>
           </div>
 
